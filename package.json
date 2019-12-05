@@ -1,0 +1,19 @@
+{
+  "name": "aux-functions",
+  "version": "1.0.0",
+  "description": "funciones auxiliares para el desarrollo del juego Snake",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "jest",
+    "build": "browserify -r ./src/index.js:aux-functions -o ./dist/aux-functions.js"
+  },
+  "author": "danielvelez",
+  "license": "MIT",
+  "dependencies": {
+    "functional-light": "^0.3.1"
+  },
+  "devDependencies": {
+    "browserify": "^16.5.0",
+    "jest": "^24.9.0"
+  }
+}
